@@ -1,2 +1,2 @@
-# [eskzsolt.github.io](http://eskzsolt.github.io/index.html)
+# [eskzsolt.github.io](http://eskzsolt.github.io)
 Personal website
