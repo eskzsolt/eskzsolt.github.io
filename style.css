@@ -44,7 +44,7 @@ body {
     padding: calc(0.3rem + 0.1vw) 0 calc(0.3rem + 0.1vw) 0;
 }
 
-#bio {
+.info {
     padding: calc(0.5rem + 0.1vw) 0 calc(0.5rem + 0.1vw) 0;
 }
 
