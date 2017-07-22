@@ -31,7 +31,6 @@ body {
 #name {
     font-family: 'Oswald', sans-serif;
     font-size:calc(3rem + 2vw);
-    color: #333;
 }
 
 #ipa {
