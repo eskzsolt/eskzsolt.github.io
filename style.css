@@ -4,9 +4,27 @@
 body {
     background-color:#66B1B4;
     font-family: 'Share Tech Mono', monospace;
-    font-size:2rem;
-    color:#333;
-    margin:0;
+    font-size:calc(1rem + 0.8vw);
+    padding:auto;
+    margin: auto;
+}
+
+.outer {
+    display: table; 
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80vw;
 }
 
 .container {
@@ -19,11 +37,15 @@ body {
 
 #name {
     font-family: 'Oswald', sans-serif;
-    font-size:5rem;
+    font-size:calc(3rem + 2vw);
 }
 
-#info {
-  padding: 1rem 0 1rem 0;
+#ipa {
+    padding: calc(0.3rem + 0.1vw) 0 calc(0.3rem + 0.1vw) 0;
+}
+
+#bio {
+    padding: calc(0.5rem + 0.1vw) 0 calc(0.5rem + 0.1vw) 0;
 }
 
 .button {
