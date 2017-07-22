@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono:400);
 
 body {
+    color: #333;
     background-color:#66B1B4;
     font-family: 'Share Tech Mono', monospace;
     font-size:calc(1rem + 0.8vw);
@@ -25,14 +26,6 @@ body {
     margin-left: auto;
     margin-right: auto; 
     width: 80vw;
-}
-
-.container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #name {
