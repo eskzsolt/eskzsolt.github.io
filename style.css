@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400);
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono:400);
 
 body {
-    color: #333;
-    background-color:#66B1B4;
+    color: #eee;
+    background-color:#0f1626;
     font-family: 'Share Tech Mono', monospace;
     font-size:calc(0.8rem + 1vw);
     padding:auto;
@@ -29,12 +28,7 @@ body {
 }
 
 #name {
-    font-family: 'Oswald', sans-serif;
-    font-size:calc(2rem + 2.5vw);
-}
-
-#ipa {
-    padding: calc(0.3rem + 0.1vw) 0 calc(0.3rem + 0.1vw) 0;
+    font-size:calc(1rem + 1.2vw);
 }
 
 .info {
@@ -46,4 +40,8 @@ body {
     padding:0.3rem;
     text-decoration: none;
     color: #333;
+}
+
+.button:hover {
+    color: #ff533d;
 }
