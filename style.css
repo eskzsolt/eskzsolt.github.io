@@ -5,7 +5,7 @@ body {
     color: #333;
     background-color:#66B1B4;
     font-family: 'Share Tech Mono', monospace;
-    font-size:calc(1rem + 0.8vw);
+    font-size:calc(0.8rem + 1vw);
     padding:auto;
     margin: auto;
 }
@@ -30,7 +30,7 @@ body {
 
 #name {
     font-family: 'Oswald', sans-serif;
-    font-size:calc(3rem + 2vw);
+    font-size:calc(2rem + 2.5vw);
 }
 
 #ipa {
@@ -43,7 +43,7 @@ body {
 
 .button {
     display: inline-block;
-    padding:0.5rem;
+    padding:0.3rem;
     text-decoration: none;
     color: #333;
 }
