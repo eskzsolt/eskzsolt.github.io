@@ -9,3 +9,7 @@ $("#scroll-up").click(function() {
         scrollTop: $(".main").offset().top},
         800);
 });
+
+function losefocus() {
+    document.activeElement.blur();
+}
