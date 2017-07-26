@@ -10,6 +10,6 @@ $("#scroll-up").click(function() {
         800);
 });
 
-function losefocus() {
+$('.button').click(function() {
     document.activeElement.blur();
-}
+});
