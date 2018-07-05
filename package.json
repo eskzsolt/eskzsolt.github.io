@@ -1,0 +1,24 @@
+{
+  "name": "eskzsolt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eskzsolt/eskzsolt.github.io.git"
+  },
+  "author": "Zsolt Eskulits",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eskzsolt/eskzsolt.github.io/issues"
+  },
+  "homepage": "https://github.com/eskzsolt/eskzsolt.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

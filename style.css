@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono:400);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono|Barlow|Josefin+Sans);
 
 html {
     padding: auto;
@@ -7,11 +7,31 @@ html {
 }
 
 body {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Barlow', sans-serif;
     font-size:calc(0.8rem + 1vw);
     padding:auto;
     margin: auto;
     height: 100%;
+}
+
+.uline {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  cursor: help;
+}
+
+.uline:hover {
+  color: #28b587;
+  text-decoration-line: none;
+}
+
+.info-location {
+  padding: calc(0.5rem + 0.1vw) 0 calc(0.5rem + 0.1vw) 0;
+  font-size:calc(0.6rem + 0.8vw);
+}
+
+h1, h2, h4 {
+  //font-weight: 400;
 }
 
 .page {
@@ -20,8 +40,13 @@ body {
 }
 
 .main {
-    background-color: #0f1626;
     color: #eee;
+    background: #242424/*#4c6d9d*/ url("images/blake-connally-373084-unsplash-edit.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 .projects {
@@ -30,7 +55,7 @@ body {
 }
 
 .outer {
-    display: table; 
+    display: table;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -43,15 +68,24 @@ body {
 
 .inner {
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     width: 80vw;
 }
 
 h1 {
-    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+    //font-weight: bold !important;
     font-size:calc(2rem + 2.4vw);
     padding: 0;
     margin: 0;
+    //color: #28b587;
+    //text-shadow: 2px 2px #2c3e50;
+    //text-transform: uppercase;
+}
+
+.highlight {
+  //background: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 .info {
@@ -70,7 +104,7 @@ a {
 }
 
 .top:hover {
-    color: #ff533d;
+    //color: #fba033;
 }
 
 .bottom {
@@ -85,3 +119,46 @@ h4 {
     //font-weight: normal;
     text-indent: calc(1rem + 0.5vw);
 }
+
+.ln {
+  box-shadow:0 0 1px transparent;
+  //background:#28b587 !important;
+  height:4px;
+  //color: #2c3e50;
+}
+
+.hvr-overline-from-center{
+  display:inline-block;
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px transparent;
+  position:relative;
+  overflow:hidden
+}
+.hvr-overline-from-center:before{
+  /*
+  content:"";
+  position:absolute;
+  z-index:-1;
+  left:50%;
+  right:50%;
+  top:0;
+  */
+  background:#28b587 !important;
+  /*
+  height:4px;
+  -webkit-transition-property:left,right;
+  transition-property:left,right;
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;
+  -webkit-transition-timing-function:ease-out;
+  transition-timing-function:ease-out
+  */
+}
+/*
+.hvr-overline-from-center:active:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:hover:before{
+  left:0;
+  right:0
+}
+*/
