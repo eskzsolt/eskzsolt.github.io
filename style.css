@@ -113,7 +113,7 @@ a {
 }
 
 .bottom:hover {
-    color: #ff533d;
+    color: #28b587 /*#ff533d*/;
 }
 
 h4 {
@@ -164,53 +164,53 @@ h4 {
 }
 */
 
-.box-outer {
+.p2-title {
+  //border: 1px solid red;
+  text-align: center;
+}
+
+.box-row {
   width: 100%;
   display: table;
   border-spacing: 1rem;
-  height: 50vh;
+  height: auto;
 }
 
-.box {
-  //border: 1px solid red;
-  width: 50vw;
+.box-outer {
+  width: 30vw;
+  height: 30vw;
+  overflow: hidden;
+  cursor: pointer;
   display: table-cell;
-  vertical-align: middle;
+}
+
+.box-inner {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-color: #242424;
+}
+
+.box-inner:hover {
+  transform: scale(1.2);
 }
 
 #rejto-ipsum {
-    color: #000;
-    background-color: #242424;
-    background-image: url("Images/rejto-ipsum.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+  background-image: url("Images/rejto-ipsum.jpg");
 }
 
 #animated-abugida {
-    color: #eee;
-    background: #242424 url("Images/animated-abugida.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+  background-image: url("Images/animated-abugida.jpg");
 }
 
-.box:hover {
-  transform: scale(1.1);
-
-  -webkit-transition-duration:.3s;
-  transition-duration:.3s;
-  -webkit-transition-timing-function:ease-out;
-  transition-timing-function:ease-out
-}
-
-@media only screen and (max-width: 1000px) {
-  .box {
-    vertical-align: center;
-    display: table-cell;
-    width: 30vw !important;
-    height: 30vh !important;
+@media only screen and (max-width: 768px) {
+  .box-outer {
+    width: 45vw;
+    height: 45vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
