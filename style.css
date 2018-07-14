@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono|Barlow);
 
-
 html {
     padding: auto;
     margin: auto;
@@ -102,10 +101,6 @@ a {
 
 .top {
     color: #eee;
-}
-
-.top:hover {
-    //color: #fba033;
 }
 
 .bottom {
