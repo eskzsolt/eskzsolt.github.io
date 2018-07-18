@@ -1,4 +1,5 @@
 (function() {
+
   $(function() {
 
     $("#scroll-down").click(function() {
@@ -23,4 +24,5 @@
     });
 
   });
+
 })();
