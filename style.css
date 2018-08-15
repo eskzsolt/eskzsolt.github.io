@@ -13,7 +13,7 @@ body {
     margin: auto;
     height: 100%;
 }
-
+/*
 .uline {
   text-decoration-line: underline;
   text-decoration-style: dashed;
@@ -24,7 +24,7 @@ body {
   color: #28b587;
   text-decoration-line: none;
 }
-
+*/
 .info-location {
   padding: calc(0.5rem + 0.1vw) 0 calc(0.5rem + 0.1vw) 0;
   font-size:calc(0.6rem + 0.8vw);
