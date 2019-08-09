@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono|Barlow);
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
 
 html {
     padding: auto;
@@ -8,6 +9,7 @@ html {
 
 body {
     font-family: 'Barlow', sans-serif;
+    //font-family: 'Libre Caslon Text', serif;
     font-size:calc(0.8rem + 1vw);
     padding:auto;
     margin: auto;
